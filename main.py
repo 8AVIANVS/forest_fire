@@ -11,7 +11,7 @@ def fire_count(world, r, c, r_world, c_world):
     return count
 
 
-def step(world, p):
+def step(world, p): 
     out = world.copy()
     row_world = world.shape[0]
     col_world = world.shape[1]
